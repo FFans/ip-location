@@ -87,6 +87,9 @@ app.initializers.add('ffans-ip-location', () => {
 
     const user = attrs.user;
     const userId = user.id();
+    // FoF User Bio uses -100. Read it dynamically when available so the
+    // location remains immediately before item-bio regardless of load state.
+    const priority = items.has('bio') ? items.getPriority('bio') + 1 : -99;
 
     if (userId && pendingProfileLocations.has(userId)) {
       items.add(
@@ -99,7 +102,7 @@ app.initializers.add('ffans-ip-location', () => {
           />
           {app.translator.trans('ffans-ip-location.forum.loading')}
         </span>,
-        80,
+        priority,
       );
 
       return;
@@ -120,7 +123,7 @@ app.initializers.add('ffans-ip-location', () => {
         <IpLocationIcon />
         {app.translator.trans('ffans-ip-location.forum.label', { location: label })}
       </span>,
-      80,
+      priority,
     );
   });
 });
