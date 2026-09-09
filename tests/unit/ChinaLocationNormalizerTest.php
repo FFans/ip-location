@@ -4,6 +4,7 @@ namespace FFans\IpLocation\Tests\unit;
 
 use FFans\IpLocation\Location\ChinaLocationNormalizer;
 use FFans\IpLocation\Location\RawLocation;
+use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 
@@ -30,14 +31,41 @@ class ChinaLocationNormalizerTest extends TestCase
     }
 
     #[Test]
-    public function it_normalizes_hong_kong_as_a_region_not_a_mainland_province(): void
+    #[DataProvider('chinaSpecialSubdivisionProvider')]
+    public function it_normalizes_hong_kong_macao_and_taiwan_as_chinese_subdivisions(
+        string $subdivision,
+        string $expectedCode,
+        string $expectedName,
+    ): void
     {
         $result = $this->normalizer->normalize(
-            new RawLocation('中国', '香港', '', '')
+            new RawLocation('中国', $subdivision, '', '', 'CN')
         );
 
-        $this->assertSame('HK', $result->countryCode);
-        $this->assertNull($result->subdivisionCode);
+        $this->assertSame('CN', $result->countryCode);
+        $this->assertSame($expectedCode, $result->subdivisionCode);
+        $this->assertSame('中国', $result->countryName);
+        $this->assertSame($expectedName, $result->subdivisionName);
+    }
+
+    public static function chinaSpecialSubdivisionProvider(): array
+    {
+        return [
+            'Hong Kong' => ['香港特别行政区', 'HK', '香港特别行政区'],
+            'Macao' => ['澳门特别行政区', 'MO', '澳门特别行政区'],
+            'Taiwan' => ['台湾省', 'TW', '台湾省'],
+        ];
+    }
+
+    #[Test]
+    public function it_normalizes_an_external_special_region_code_as_a_chinese_subdivision(): void
+    {
+        $result = $this->normalizer->normalize(
+            new RawLocation('Hong Kong', '', '', '', 'hk')
+        );
+
+        $this->assertSame('CN', $result->countryCode);
+        $this->assertSame('HK', $result->subdivisionCode);
     }
 
     #[Test]

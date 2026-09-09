@@ -6,12 +6,21 @@ class ChinaLocationNormalizer
 {
     private const COUNTRY_CODES = [
         '中国' => 'CN', '中华人民共和国' => 'CN',
-        '中国香港' => 'HK', '香港' => 'HK', '香港特别行政区' => 'HK',
-        '中国澳门' => 'MO', '澳门' => 'MO', '澳门特别行政区' => 'MO',
-        '中国台湾' => 'TW', '台湾' => 'TW', '台湾省' => 'TW',
         '美国' => 'US', '澳大利亚' => 'AU', '日本' => 'JP', '韩国' => 'KR',
         '新加坡' => 'SG', '英国' => 'GB', '德国' => 'DE', '法国' => 'FR',
         '加拿大' => 'CA', '俄罗斯' => 'RU', '印度' => 'IN',
+    ];
+
+    private const CHINA_SPECIAL_SUBDIVISIONS = [
+        '中国香港' => 'HK', '香港' => 'HK', '香港特别行政区' => 'HK',
+        '中国澳门' => 'MO', '澳门' => 'MO', '澳门特别行政区' => 'MO',
+        '中国台湾' => 'TW', '台湾' => 'TW', '台湾省' => 'TW',
+    ];
+
+    private const CHINA_SPECIAL_SUBDIVISION_NAMES = [
+        'HK' => '香港特别行政区',
+        'MO' => '澳门特别行政区',
+        'TW' => '台湾省',
     ];
 
     private const CHINA_SUBDIVISIONS = [
@@ -34,20 +43,18 @@ class ChinaLocationNormalizer
             $countryCode = self::COUNTRY_CODES[$country] ?? null;
         }
 
-        if ($countryCode === 'CN') {
-            $specialCode = self::COUNTRY_CODES[$subdivision] ?? null;
+        $specialSubdivisionCode = $this->chinaSpecialSubdivisionCode($countryCode, $country, $subdivision);
 
-            if (in_array($specialCode, ['HK', 'MO', 'TW'], true)) {
-                return new LocationResult(
-                    'resolved',
-                    $specialCode,
-                    null,
-                    $subdivision,
-                    null,
-                    $raw->provider,
-                    $raw->databaseVersion
-                );
-            }
+        if ($specialSubdivisionCode !== null) {
+            return new LocationResult(
+                'resolved',
+                'CN',
+                $specialSubdivisionCode,
+                '中国',
+                self::CHINA_SPECIAL_SUBDIVISION_NAMES[$specialSubdivisionCode],
+                $raw->provider,
+                $raw->databaseVersion
+            );
         }
 
         $subdivisionCode = $countryCode === 'CN'
@@ -67,6 +74,21 @@ class ChinaLocationNormalizer
             $raw->provider,
             $raw->databaseVersion
         );
+    }
+
+    private function chinaSpecialSubdivisionCode(?string $countryCode, string $country, string $subdivision): ?string
+    {
+        if (in_array($countryCode, ['HK', 'MO', 'TW'], true)) {
+            return $countryCode;
+        }
+
+        if ($countryCode !== null && $countryCode !== 'CN') {
+            return null;
+        }
+
+        return self::CHINA_SPECIAL_SUBDIVISIONS[$subdivision]
+            ?? self::CHINA_SPECIAL_SUBDIVISIONS[$country]
+            ?? null;
     }
 
     private function chinaSubdivisionCode(string $name): ?string

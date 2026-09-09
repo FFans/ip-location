@@ -49,10 +49,6 @@ ffans-ip-location:
     unknown: Unknown
     tooltip: This location is inferred from the network IP and may be affected by carrier routing, proxies, or VPNs.
   lib:
-    regions:
-      HK: Hong Kong, China
-      MO: Macao, China
-      TW: Taiwan, China
     subdivisions:
       BJ: Beijing
       TJ: Tianjin
@@ -85,3 +81,6 @@ ffans-ip-location:
       QH: Qinghai
       NX: Ningxia
       XJ: Xinjiang
+      HK: Hong Kong
+      MO: Macao
+      TW: Taiwan
