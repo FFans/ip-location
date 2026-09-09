@@ -22,14 +22,14 @@ IPv4/IPv6 XDB database files from
 - Upstream branch: `master`
 - Upstream paths: `data/ipv4_source.txt`, `data/ip2region_v4.xdb`, `data/ip2region_v6.xdb`
 - Local paths: `resources/database/ip2region_v4.xdb.gz`, `resources/database/ip2region_v6.xdb.gz`
-- IPv4 XDB SHA-256: `f1246594680c1b839a8cffeca03684cf681fd17882444a61934df33d9713ce9c`
+- IPv4 XDB SHA-256: `982816d803f07a5574c5d79781d35a269d93722147f96f943bd2ab13c3493385`
 - IPv6 XDB SHA-256: `939f6b46bd2b8bec3cf7c5ceb8ba782266ae9b1f35b5ba7916700dec0b7506ed`
 
 #### IPv4 custom corrections
 
-The IPv4 source data currently has 633 local correction ranges applied with
+The IPv4 source data currently has 762 local correction ranges applied with
 the official `xdb_maker edit` and `xdb_maker gen` commands from ip2region
-`v3.18.0`. The corrections cover 450,910 addresses whose base XDB country code
+`v3.18.0`. The corrections cover 517,652 addresses whose base XDB country code
 disagreed with Cogent's public RFC 8805 geofeed. Existing ISP values are
 preserved.
 
@@ -52,6 +52,8 @@ Correction batches:
   `154.32.0.0` through `154.43.255.255`.
 - Batch 8 (`2026-09-10`): 106 ranges and 58,992 addresses within
   `154.44.0.0` through `154.47.255.255`.
+- Batch 9 (`2026-09-10`): 129 ranges and 66,742 addresses within
+  `154.48.0.0` through `154.51.255.255`.
 - Correction source: `resources/database/ip2region_v4_corrections.txt`
 - Evidence: Cogent public RFC 8805 geofeed
   <https://geofeed.cogentco.com/geofeed.csv>
@@ -66,6 +68,7 @@ Correction batches:
 - Batch 6 uses the same geofeed snapshot as Batch 3.
 - Batch 7 uses the same geofeed snapshot as Batch 3.
 - Batch 8 uses the same geofeed snapshot as Batch 3.
+- Batch 9 uses the same geofeed snapshot as Batch 3.
 
 ip2region license: Apache License 2.0
 
