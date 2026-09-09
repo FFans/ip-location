@@ -93,7 +93,55 @@
 154.17.128.0|154.17.159.255|United States|North Carolina|Charlotte|M247 Europe SRL|US
 154.17.168.0|154.17.191.255|United States|North Carolina|Charlotte|M247 Europe SRL|US
 154.18.1.176|154.18.1.183|United States|Kansas|Wichita|Cogent Communications|US
+154.18.2.168|154.18.2.175|Luxembourg|LU-LU|Contern|Cogent Communications|LU
+154.18.2.248|154.18.2.255|Indonesia|ID-JK|Jakarta Pusat|Cogent Communications|ID
+154.18.3.8|154.18.3.15|Japan|JP-13|Tokyo|Cogent Communications|JP
+154.18.4.224|154.18.4.231|Hong Kong SAR China|HK|Chai Wan|Cogent通信|HK
+154.18.4.240|154.18.4.243|Japan|JP-13|Shinagawa-Ku|Cogent通信|JP
+154.18.5.184|154.18.5.191|Singapore|SG-05|Singapore|Cogent通信|SG
+154.18.6.0|154.18.6.7|Hong Kong SAR China|HK|Hong Kong|Cogent通信|HK
+154.18.6.46|154.18.6.47|Hong Kong SAR China|HK|Hong Kong|Cogent通信|HK
+154.18.6.58|154.18.6.61|Hong Kong SAR China|HK|Hong Kong|Cogent通信|HK
+154.18.6.102|154.18.6.103|Hong Kong SAR China|HK|Hong Kong|Cogent通信|HK
+154.18.6.112|154.18.6.113|Netherlands|NL-ZH|Rotterdam|Cogent通信|NL
+154.18.6.178|154.18.6.179|Hong Kong SAR China|HK|Hong Kong|Cogent通信|HK
+154.18.7.8|154.18.7.15|Hong Kong SAR China|HK-KKC|Hong Kong|Cogent通信|HK
+154.18.7.224|154.18.7.231|Hong Kong SAR China|HK|Hong Kong|Cogent通信|HK
+154.18.8.112|154.18.8.119|Hong Kong SAR China|HK|Chai Wan|Cogent通信|HK
+154.18.9.104|154.18.9.111|Hong Kong SAR China|HK|Chai Wan|Cogent通信|HK
+154.18.12.0|154.18.13.255|Spain|ES-MD|Madrid|Cogent通信|ES
 154.18.16.136|154.18.16.143|United States|New Jersey|Secaucus|Cogent Communications|US
+154.18.24.0|154.18.24.15|Taiwan|TW-TPE|Taipei|Cogent通信|TW
+154.18.24.24|154.18.24.31|Taiwan|TW-TPE|Taipei|Cogent通信|TW
+154.18.24.72|154.18.24.79|Taiwan|TW-TPE|Taipei|Cogent通信|TW
+154.18.24.88|154.18.24.111|Taiwan|TW-TPE|Taipei|Cogent通信|TW
+154.18.24.120|154.18.24.127|Taiwan|TW-TPE|Taipei|Cogent通信|TW
+154.18.24.136|154.18.24.143|Taiwan|TW-TPE|Taipei|Cogent通信|TW
+154.18.24.152|154.18.24.159|Taiwan|TW-TPE|Taipei|Cogent通信|TW
+154.18.24.164|154.18.24.175|Taiwan|TW-TPE|Taipei|Cogent通信|TW
+154.18.24.184|154.18.24.185|Taiwan|TW-TPE|Taipei|Cogent通信|TW
+154.18.24.188|154.18.24.189|Taiwan|TW-TPE|Taipei|Cogent通信|TW
+154.18.24.192|154.18.24.197|Taiwan|TW-TPE|Taipei|Cogent通信|TW
+154.18.24.198|154.18.24.199|Taiwan|TW-NWT|New Taipei City|Cogent通信|TW
+154.18.36.0|154.18.36.7|Hong Kong SAR China|HK|Hong Kong|Cogent Communications|HK
+154.18.36.234|154.18.36.235|Hong Kong SAR China|HK|Hong Kong|Cogent Communications|HK
+154.18.44.8|154.18.44.9|Guam|GU-TM|Piti|Cogent Communications|GU
+154.18.48.0|154.18.48.1|Japan|JP-13|Tokyo|Cogent Communications|JP
+154.18.48.4|154.18.48.5|Japan|JP-13|Bunkyo-Ku Tokyo|Cogent Communications|JP
+154.18.48.6|154.18.48.7|Japan|JP-13|Shinigawa-Ku|Cogent Communications|JP
+154.18.49.2|154.18.49.3|Japan|JP-13|Bunkyo-Ku Tokyo|Cogent Communications|JP
+154.18.50.66|154.18.50.73|India|IN-MH|Mumbai|Cogent Communications|IN
+154.18.50.74|154.18.50.79|India|IN-MH|Navi Mumbai|Cogent Communications|IN
+154.18.50.80|154.18.50.83|India|IN-MH|Mumbai|Cogent Communications|IN
+154.18.50.84|154.18.50.89|India|IN-MH|Navi Mumbai|Cogent Communications|IN
+154.18.50.96|154.18.50.99|India|IN-MH|Mumbai|Cogent Communications|IN
+154.18.50.102|154.18.50.107|India|IN-MH|Mumbai|Cogent Communications|IN
+154.18.50.108|154.18.50.109|India|IN-MH|Malad East Mumbai|Cogent Communications|IN
+154.18.50.110|154.18.50.111|India|IN-MH|Mumbai|Cogent Communications|IN
+154.18.50.114|154.18.50.119|India|IN-MH|Mumbai|Cogent Communications|IN
+154.18.51.0|154.18.51.1|Japan|JP-27|Osaka City|Cogent Communications|JP
+154.18.51.4|154.18.51.7|Japan|JP-27|Osaka City|Cogent Communications|JP
+154.18.51.8|154.18.51.11|Japan|JP-27|Osaka|Cogent Communications|JP
 154.18.82.0|154.18.82.255|United States|New York|Middletown|Cogent Communications|US
 154.18.97.64|154.18.97.71|United States|Florida|Fort Lauderdale|Cogent Communications|US
 154.18.145.0|154.18.145.7|United States|Ohio|Columbus|Cogent Communications|US
