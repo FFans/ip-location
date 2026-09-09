@@ -1,0 +1,134 @@
+154.3.32.0|154.3.39.255|United States|New York|New York|DMIT云服务|US
+154.3.44.0|154.3.44.255|United States|Minnesota|Minneapolis|Cogent Communications|US
+154.3.45.0|154.3.45.255|United States|Massachusetts|Waltham|Cogent Communications|US
+154.3.58.0|154.3.58.255|United States|New York|New York|Tu Casa Inalambrica de Mexico|US
+154.3.59.0|154.3.59.255|United States|California|Los Angeles|Tu Casa Inalambrica de Mexico|US
+154.3.62.0|154.3.62.255|United States|California|Sunnyvale|Tu Casa Inalambrica de Mexico|US
+154.3.80.0|154.3.81.255|United States|New York|New York|Tu Casa Inalambrica de Mexico|US
+154.3.82.0|154.3.85.255|United States|California|Pasadena|Tu Casa Inalambrica de Mexico|US
+154.3.86.0|154.3.87.255|United States|Illinois|Bellwood|Tu Casa Inalambrica de Mexico|US
+154.3.91.0|154.3.91.255|United States|Oregon|Portland|Tu Casa Inalambrica de Mexico|US
+154.9.24.0|154.9.31.255|United States|California|Los Angeles|NetLab全球|US
+154.9.96.0|154.9.111.255|United States|New York|Nicholville|M247 Europe SRL|US
+154.9.128.0|154.9.129.255|United States|California|Pasadena|M247 Europe SRL|US
+154.9.130.0|154.9.131.255|United States|New York|New York|M247 Europe SRL|US
+154.9.134.0|154.9.135.255|United States|California|Pasadena|M247 Europe SRL|US
+154.9.154.0|154.9.154.255|United States|Massachusetts|Waltham|M247 Europe SRL|US
+154.9.160.0|154.9.167.255|United States|Mississippi|Jackson|M247 Europe SRL|US
+154.9.176.0|154.9.179.255|United States|Texas|Fort Worth|M247 Europe SRL|US
+154.9.181.0|154.9.181.255|United States|District of Columbia|Washington|M247 Europe SRL|US
+154.9.182.0|154.9.183.255|United States|California|Pasadena|M247 Europe SRL|US
+154.9.192.0|154.9.199.255|United States|Texas|Dallas|M247 Europe SRL|US
+154.9.200.0|154.9.201.255|United States|Texas|Fort Worth|M247 Europe SRL|US
+154.9.211.0|154.9.211.255|United States|Missouri|Kansas City|M247 Europe SRL|US
+154.9.217.0|154.9.217.255|United States|Tennessee|Nashville|M247 Europe SRL|US
+154.9.224.0|154.9.255.255|United States|California|Los Angeles|M247 Europe SRL|US
+154.12.6.0|154.12.6.255|United States|Massachusetts|Waltham|Cogent Communications|US
+154.12.7.0|154.12.7.255|United States|Texas|Houston|Cogent Communications|US
+154.12.8.0|154.12.9.255|United States|California|Pasadena|Cogent Communications|US
+154.12.10.0|154.12.11.255|United States|New York|New York|Cogent Communications|US
+154.12.16.0|154.12.31.255|United States|California|Pasadena|科奈云端|US
+154.12.67.0|154.12.67.7|United States|California|Los Angeles|Cogent Communications|US
+154.12.67.8|154.12.67.15|United States|New York|New York|Cogent Communications|US
+154.12.114.0|154.12.114.255|United States|Virginia|Arlington|Cogent Communications|US
+154.12.176.0|154.12.191.255|United States|California|San Jose|Cogent Communications|US
+154.12.192.0|154.12.206.255|United States|Alaska|Ketchikan|Cogent Communications|US
+154.13.12.0|154.13.13.255|United States|Massachusetts|Waltham|Cogent Communications|US
+154.13.14.0|154.13.15.255|United States|Georgia|Atlanta|Cogent Communications|US
+154.13.88.0|154.13.89.255|United States|California|Walnut|Cogent Communications|US
+154.13.136.0|154.13.143.255|United States|Florida|Boca Raton|Datacamp Limited|US
+154.13.168.0|154.13.175.255|United States|Virginia|Ashburn|Cogent Communications|US
+154.17.128.0|154.17.159.255|United States|North Carolina|Charlotte|M247 Europe SRL|US
+154.17.168.0|154.17.191.255|United States|North Carolina|Charlotte|M247 Europe SRL|US
+154.18.1.176|154.18.1.183|United States|Kansas|Wichita|Cogent Communications|US
+154.18.16.136|154.18.16.143|United States|New Jersey|Secaucus|Cogent Communications|US
+154.18.82.0|154.18.82.255|United States|New York|Middletown|Cogent Communications|US
+154.18.97.64|154.18.97.71|United States|Florida|Fort Lauderdale|Cogent Communications|US
+154.18.145.0|154.18.145.7|United States|Ohio|Columbus|Cogent Communications|US
+154.18.145.8|154.18.145.23|United States|New York|New York|Cogent Communications|US
+154.18.145.24|154.18.145.31|United States|Illinois|Chicago|Cogent Communications|US
+154.18.145.56|154.18.145.63|United States|Ohio|Gahanna|Cogent Communications|US
+154.18.145.72|154.18.145.87|United States|Ohio|Groveport|Cogent Communications|US
+154.18.145.88|154.18.145.95|United States|California|Monterey|Cogent Communications|US
+154.18.145.96|154.18.145.103|United States|Illinois|Chicago|Cogent Communications|US
+154.18.145.104|154.18.145.111|United States|Ohio|Columbus|Cogent Communications|US
+154.18.145.120|154.18.145.135|United States|Ohio|Columbus|Cogent Communications|US
+154.18.145.144|154.18.145.255|United States|New York|New York|Cogent Communications|US
+154.18.153.0|154.18.153.255|United States|Florida|Pembroke Park|Cogent Communications|US
+154.18.177.0|154.18.177.255|United States|Louisiana|New Orleans|Cogent Communications|US
+154.18.186.0|154.18.186.255|United States|California|Pasadena|Cogent Communications|US
+154.18.253.0|154.18.253.255|United States|California|Pasadena|Cogent Communications|US
+154.18.254.0|154.18.254.255|United States|Texas|Richmond|Cogent Communications|US
+154.19.42.0|154.19.42.255|United States|California|Pasadena|Cogent Communications|US
+154.19.46.0|154.19.46.255|United States|New Jersey|North Bergen|Cogent Communications|US
+154.21.12.0|154.21.12.255|United States|Texas|Georgetown|Cogent Communications|US
+154.21.13.0|154.21.13.255|United States|Virginia|Ashburn|Cogent Communications|US
+154.21.70.0|154.21.71.255|United States|Texas|Fort Worth|Cogent Communications|US
+154.21.80.0|154.21.95.255|United States|California|San Jose|Cogent Communications|US
+154.22.4.0|154.22.4.255|United States|California|El Segundo|Cogent Communications|US
+154.22.5.0|154.22.5.255|United States|Texas|Dallas|Cogent Communications|US
+154.22.6.0|154.22.7.255|United States|Minnesota|Minneapolis|Cogent Communications|US
+154.22.19.0|154.22.19.255|United States|California|Milpitas|Cogent Communications|US
+154.22.128.0|154.22.129.255|United States|District of Columbia|Washington|Cogent Communications|US
+154.22.130.0|154.22.131.255|United States|California|Pasadena|Cogent Communications|US
+154.22.136.0|154.22.136.255|United States|California|Milpitas|Cogent Communications|US
+154.22.139.0|154.22.139.255|United States|Virginia|Reston|Cogent Communications|US
+154.28.64.0|154.28.127.255|United States|North Carolina|Charlotte|M247 Europe SRL|US
+154.28.138.0|154.28.139.255|United States|Texas|Irving|Cogent Communications|US
+154.28.140.0|154.28.143.255|United States|Texas|Dallas|Cogent Communications|US
+154.28.154.0|154.28.155.255|United States|Arizona|Phoenix|Cogent Communications|US
+154.29.0.0|154.29.127.255|United States|North Carolina|Charlotte|M247 Europe SRL|US
+154.29.136.0|154.29.139.255|United States|California|Pasadena|M247 Europe SRL|US
+154.29.144.0|154.29.159.255|United States|California|Los Angeles|M247 Europe SRL|US
+154.29.160.0|154.29.163.255|United States|Wyoming|Sheridan|M247 Europe SRL|US
+154.29.172.0|154.29.172.255|United States|Texas|Katy|M247 Europe SRL|US
+154.29.175.0|154.29.175.255|United States|Nevada|Las Vegas|M247 Europe SRL|US
+154.29.192.0|154.29.255.255|United States|North Carolina|Charlotte|M247 Europe SRL|US
+154.43.170.0|154.43.171.255|United States|Virginia|Ashburn|Horizon Scope Mobile Telecom WLL|US
+154.51.8.0|154.51.9.255|United States|Nevada|Henderson|Cogent Communications|US
+154.51.21.0|154.51.21.255|United States|California|Pasadena|Cogent Communications|US
+154.51.22.0|154.51.22.255|United States|Texas|Dallas|Cogent Communications|US
+154.51.23.0|154.51.23.255|United States|New York|Purchase|Cogent Communications|US
+154.51.42.0|154.51.42.255|United States|Texas|Farmers Branch|Cogent Communications|US
+154.51.43.0|154.51.43.255|United States|New Mexico|Pecos|Cogent Communications|US
+154.51.44.0|154.51.44.255|United States|Oklahoma|Oklahoma City|Cogent Communications|US
+154.51.45.0|154.51.45.255|United States|Virginia|Ashburn|Cogent Communications|US
+154.51.66.0|154.51.66.255|United States|North Carolina|Charlotte|Cogent Communications|US
+154.51.72.0|154.51.79.255|United States|California|Pasadena|Cogent Communications|US
+154.51.147.0|154.51.147.255|United States|Georgia|Atlanta|Cogent Communications|US
+154.51.158.0|154.51.158.255|United States|Texas|Farmers Branch|Cogent Communications|US
+154.51.159.0|154.51.159.255|United States|California|Pasadena|Cogent Communications|US
+154.51.240.0|154.51.243.255|United States|California|Los Angeles|Cogent Communications|US
+154.51.244.0|154.51.245.255|United States|New Jersey|Edison|Cogent Communications|US
+154.51.252.0|154.51.255.255|United States|California|Pasadena|Cogent Communications|US
+154.52.98.0|154.52.98.255|United States|Massachusetts|Waltham|Cogent Communications|US
+154.53.32.0|154.53.63.255|United States|Missouri|St Louis|Cogent Communications|US
+154.53.72.0|154.53.73.255|United States|District of Columbia|Washington|Cogent Communications|US
+154.53.76.0|154.53.79.255|United States|District of Columbia|Washington|Cogent Communications|US
+154.57.36.0|154.57.36.255|United States|California|Pasadena|MEDIANET INVEST AE|US
+154.57.37.0|154.57.37.255|United States|New Jersey|Hackensack|MEDIANET INVEST AE|US
+154.57.48.0|154.57.55.255|United States|Florida|Jacksonville|MEDIANET INVEST AE|US
+154.57.56.0|154.57.56.255|United States|California|Irvine|MEDIANET INVEST AE|US
+154.57.60.0|154.57.63.255|United States|New Jersey|Secaucus|MEDIANET INVEST AE|US
+154.58.205.48|154.58.205.55|United States|Florida|Miami|Cogent Communications|US
+154.58.225.0|154.58.225.255|United States|Texas|Dallas|Cogent Communications|US
+154.59.103.0|154.59.103.255|United States|California|Los Angeles|Axclusive|US
+154.59.148.0|154.59.148.255|United States|Washington|Federal Way|Cogent Communications|US
+154.59.152.0|154.59.155.255|United States|Kansas|Lenexa|Cogent Communications|US
+154.59.156.0|154.59.159.255|United States|Texas|Irving|Cogent Communications|US
+154.61.45.0|154.61.45.255|United States|California|Pasadena|ITS Technology Group Limited|US
+154.61.47.0|154.61.47.255|United States|Florida|Orlando|ITS Technology Group Limited|US
+154.61.64.0|154.61.64.255|United States|Nevada|Henderson|Telecom North America Inc.|US
+154.61.144.0|154.61.144.255|United States|California|San Francisco|Cogent Communications|US
+154.61.145.0|154.61.145.255|United States|Virginia|Reston|Cogent Communications|US
+154.61.151.0|154.61.151.255|United States|Colorado|Grand Jct|TransFICC Ltd.|US
+154.62.101.0|154.62.101.255|United States|Florida|Boca Raton|Cogent Communications|US
+154.62.175.0|154.62.175.255|United States|Texas|Dallas|Cogent Communications|US
+154.62.182.0|154.62.182.255|United States|New York|Brooklyn|ZH NETWORK LIMITED|US
+154.62.183.0|154.62.183.255|United States|Delaware|Dover|ZH NETWORK LIMITED|US
+154.62.185.0|154.62.185.255|United States|New York|New York|ZH NETWORK LIMITED|US
+154.63.40.0|154.63.43.255|United States|U.S. Virgin Islands|St Thomas|Cogent Communications|US
+154.63.44.0|154.63.47.255|United States|Georgia|Atlanta|Cogent Communications|US
+154.64.128.0|154.64.159.255|United States|New Jersey|Edison|Cogent Communications|US
+154.64.208.0|154.64.223.255|United States|Florida|Jacksonville|Cogent Communications|US
+154.64.224.0|154.64.255.255|United States|California|Los Angeles|Cogent Communications|US
