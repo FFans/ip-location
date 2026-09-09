@@ -729,10 +729,58 @@
 154.51.249.0|154.51.249.255|United Kingdom|GB-ENG|London|Cogent Communications|GB
 154.51.250.0|154.51.251.255|Indonesia|ID-BA|Kec. Kedung Banteng|Cogent Communications|ID
 154.51.252.0|154.51.255.255|United States|California|Pasadena|Cogent Communications|US
+154.52.0.0|154.52.15.255|France|FR-PAC|Valbonne|Cogent Communications|FR
+154.52.32.0|154.52.32.255|Belgium|BE-BRU|Brussels|Cogent Communications|BE
+154.52.33.0|154.52.33.7|Belgium|BE-VLG|Diegem|Cogent Communications|BE
+154.52.33.24|154.52.33.31|Belgium|BE-BRU|Brussels|Cogent Communications|BE
+154.52.35.0|154.52.36.255|Belgium|BE-VLG|Zaventem|Cogent Communications|BE
+154.52.37.0|154.52.37.255|Belgium|BE-VLG|Antwerpen|Cogent Communications|BE
+154.52.38.0|154.52.39.127|Belgium|BE-VLG|Zaventem|Cogent Communications|BE
+154.52.44.0|154.52.47.127|Belgium|BE-VLG|Zaventem|Cogent Communications|BE
+154.52.48.0|154.52.52.255|Belgium|BE-VLG|Zaventem|Cogent Communications|BE
 154.52.98.0|154.52.98.255|United States|Massachusetts|Waltham|Cogent Communications|US
+154.52.128.0|154.52.128.255|France|FR-IDF|Saint-Denis|Cogent Communications|FR
+154.52.129.16|154.52.129.31|France|FR-IDF|Saint Denis|Cogent Communications|FR
+154.53.1.0|154.53.1.255|Switzerland|CH-VD|Crissier|Cogent Communications|CH
 154.53.32.0|154.53.63.255|United States|Missouri|St Louis|Cogent Communications|US
 154.53.72.0|154.53.73.255|United States|District of Columbia|Washington|Cogent Communications|US
 154.53.76.0|154.53.79.255|United States|District of Columbia|Washington|Cogent Communications|US
+154.53.80.0|154.53.95.255|France|FR-IDF|Saint-Denis|Cogent Communications|FR
+154.53.132.0|154.53.132.255|Spain|ES-MD|Madrid|Cogent Communications|ES
+154.53.134.0|154.53.134.255|Spain|ES-MD|Madrid|Cogent Communications|ES
+154.53.192.0|154.53.193.255|Gambia|GM-B|Banjul|Cogent Communications|GM
+154.54.9.0|154.54.9.3|Canada|CA-ON|Toronto|Cogent Communications|CA
+154.54.9.4|154.54.9.7|Mexico|MX-NLE|Apodaca|Cogent Communications|MX
+154.54.9.16|154.54.9.19|Canada|CA-ON|Toronto|Cogent Communications|CA
+154.54.10.52|154.54.10.55|Canada|CA-QC|Montréal|Cogent Communications|CA
+154.54.10.148|154.54.10.155|Mexico|MX-NLE|Apodaca|Cogent Communications|MX
+154.54.10.156|154.54.10.159|Mexico|MX-QUE|Queretaro|Cogent Communications|MX
+154.54.10.176|154.54.10.179|Canada|CA-QC|Montréal|Cogent Communications|CA
+154.54.11.68|154.54.11.71|Mexico|MX-QUE|Queretaro|Cogent Communications|MX
+154.54.11.88|154.54.11.91|Canada|CA-ON|Toronto|Cogent Communications|CA
+154.54.11.112|154.54.11.115|Ukraine|UA-30|Kyiv|Cogent Communications|UA
+154.54.12.112|154.54.12.115|Germany|DE-HE|Frankfurt|Cogent Communications|DE
+154.54.13.56|154.54.13.59|Germany|DE-HE|Frankfurt|Cogent Communications|DE
+154.54.13.60|154.54.13.63|Netherlands|NL-NH|Amsterdam|Cogent Communications|NL
+154.54.129.0|154.54.129.3|Brazil|BR-SP|Tamboré|Cogent Communications|BR
+154.54.129.4|154.54.129.7|Mexico|MX-QUE|Queretaro|Cogent Communications|MX
+154.54.140.0|154.54.140.3|Singapore|SG-05|Singapore|Cogent Communications|SG
+154.54.140.4|154.54.140.7|Japan|JP-13|Tokyo|Cogent Communications|JP
+154.54.140.16|154.54.140.23|Singapore|SG-05|Singapore|Cogent Communications|SG
+154.54.140.24|154.54.140.27|Japan|JP-13|Tokyo|Cogent Communications|JP
+154.54.140.32|154.54.140.35|Japan|JP-13|Tokyo|Cogent Communications|JP
+154.54.140.36|154.54.140.39|Singapore|SG-04|Singapore|Cogent Communications|SG
+154.54.140.44|154.54.140.51|Singapore|SG-05|Singapore|Cogent Communications|SG
+154.54.140.52|154.54.140.55|Singapore|SG-04|Singapore|Cogent Communications|SG
+154.54.140.68|154.54.140.75|Singapore|SG-04|Singapore|Cogent Communications|SG
+154.54.140.80|154.54.140.83|Singapore|SG-05|Singapore|Cogent Communications|SG
+154.54.140.84|154.54.140.87|Hong Kong SAR China|HK|Hong Kong|Cogent Communications|HK
+154.54.140.88|154.54.140.91|Japan|JP-13|Tokyo|Cogent Communications|JP
+154.54.220.0|154.54.220.255|Spain|ES-AN|Málaga|Cogent Communications|ES
+154.54.248.0|154.54.248.255|France|FR-IDF|Courbevoie|Cogent Communications|FR
+154.54.249.0|154.54.249.255|France|FR-IDF|Nozay|Cogent Communications|FR
+154.54.251.0|154.54.251.255|France|FR-IDF|Magny-Les-Hameaux|Cogent Communications|FR
+154.55.88.0|154.55.95.255|France|FR-IDF|Vélizy-Villacoublay|Cogent Communications|FR
 154.57.36.0|154.57.36.255|United States|California|Pasadena|MEDIANET INVEST AE|US
 154.57.37.0|154.57.37.255|United States|New Jersey|Hackensack|MEDIANET INVEST AE|US
 154.57.48.0|154.57.55.255|United States|Florida|Jacksonville|MEDIANET INVEST AE|US
