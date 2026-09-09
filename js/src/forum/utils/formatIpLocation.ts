@@ -18,10 +18,6 @@ export default function formatIpLocation(location: IpLocationData): string {
     if (translated !== key) return translated as string;
   }
 
-  if (location.countryCode && ['HK', 'MO', 'TW'].includes(location.countryCode)) {
-    return app.translator.trans(`ffans-ip-location.lib.regions.${location.countryCode}`) as string;
-  }
-
   if (location.countryCode) {
     try {
       const displayNames = new Intl.DisplayNames([app.data.locale], { type: 'region' });
