@@ -22,29 +22,32 @@ IPv4/IPv6 XDB database files from
 - Upstream branch: `master`
 - Upstream paths: `data/ipv4_source.txt`, `data/ip2region_v4.xdb`, `data/ip2region_v6.xdb`
 - Local paths: `resources/database/ip2region_v4.xdb.gz`, `resources/database/ip2region_v6.xdb.gz`
-- IPv4 XDB SHA-256: `f0e5fa12f6dc697273192ca90442729a676545c26975339144d520ad9510ea52`
+- IPv4 XDB SHA-256: `1e86eb646a99a3599ec58dd6234b8b019abe3be32f688266276ca601cd2508ab`
 - IPv6 XDB SHA-256: `939f6b46bd2b8bec3cf7c5ceb8ba782266ae9b1f35b5ba7916700dec0b7506ed`
 
 #### IPv4 custom corrections
 
-The IPv4 source data has 134 local correction ranges applied with the official
-`xdb_maker edit` and `xdb_maker gen` commands from ip2region `v3.18.0`.
-They cover 197,376 addresses in `154.0.0.0/8` that Cogent's public RFC 8805
-geofeed identifies as United States while the base XDB country code was not
-`US`:
+The IPv4 source data currently has 186 local correction ranges applied with
+the official `xdb_maker edit` and `xdb_maker gen` commands from ip2region
+`v3.18.0`. The corrections cover 244,272 addresses whose base XDB country code
+disagreed with Cogent's public RFC 8805 geofeed. Existing ISP values are
+preserved.
 
-- Affected `/16` blocks: `154.3`, `154.9`, `154.12`, `154.13`, `154.17`,
-  `154.18`, `154.19`, `154.21`, `154.22`, `154.28`, `154.29`, `154.43`,
-  `154.51`, `154.52`, `154.53`, `154.57`, `154.58`, `154.59`, `154.61`,
-  `154.62`, `154.63`, and `154.64`
+Correction batches:
+
+- Batch 1 (`2026-09-09`): 134 ranges and 197,376 addresses identified as
+  United States within `154.0.0.0/8`.
+- Batch 2 (`2026-09-10`): 52 ranges and 46,896 addresses within
+  `154.0.0.0/12`; this adds the remaining non-US country-code corrections for
+  that batch range.
 - Correction source: `resources/database/ip2region_v4_corrections.txt`
 - Evidence: Cogent public RFC 8805 geofeed
   <https://geofeed.cogentco.com/geofeed.csv>
-- Geofeed snapshot date: `2026-09-09`
-- Geofeed snapshot SHA-256:
+- Batch 1 geofeed SHA-256:
   `4dbe8623b4192d6256cd4859a9ab31f44e698d84cd32ebd2ddd796d6427b67df`
-- Corrections applied: `2026-09-09`
+- Batch 2 geofeed SHA-256:
+  `7177ca39d100ec16e7ed1160da153a1da2cf75141a082d428d6b874fe226437f`
 
-License: Apache License 2.0
+ip2region license: Apache License 2.0
 
 The upstream license is reproduced at `lib/ip2region/LICENSE.md`.

@@ -1,42 +1,94 @@
 154.3.32.0|154.3.39.255|United States|New York|New York|DMIT云服务|US
 154.3.44.0|154.3.44.255|United States|Minnesota|Minneapolis|Cogent Communications|US
 154.3.45.0|154.3.45.255|United States|Massachusetts|Waltham|Cogent Communications|US
+154.3.46.0|154.3.46.255|Japan|JP-13|Ota-Ku Tokyo|Cogent Communications|JP
+154.3.47.0|154.3.47.255|Canada|CA-ON|Toronto|Cogent Communications|CA
+154.3.52.0|154.3.53.255|Germany|DE-HE|Frankfurt|Tu Casa Inalambrica de Mexico|DE
+154.3.54.0|154.3.55.255|Netherlands|NL-NH|Halfweg|Tu Casa Inalambrica de Mexico|NL
+154.3.57.0|154.3.57.255|Dominican Republic|DO-06|Castillo|Tu Casa Inalambrica de Mexico|DO
 154.3.58.0|154.3.58.255|United States|New York|New York|Tu Casa Inalambrica de Mexico|US
 154.3.59.0|154.3.59.255|United States|California|Los Angeles|Tu Casa Inalambrica de Mexico|US
+154.3.60.0|154.3.60.255|Canada|CA-QC|Montréal|Tu Casa Inalambrica de Mexico|CA
+154.3.61.0|154.3.61.255|Paraguay|PY-1|Horqueta|Tu Casa Inalambrica de Mexico|PY
 154.3.62.0|154.3.62.255|United States|California|Sunnyvale|Tu Casa Inalambrica de Mexico|US
+154.3.76.0|154.3.77.255|Venezuela|VE-K|Quibor|Tu Casa Inalambrica de Mexico|VE
 154.3.80.0|154.3.81.255|United States|New York|New York|Tu Casa Inalambrica de Mexico|US
 154.3.82.0|154.3.85.255|United States|California|Pasadena|Tu Casa Inalambrica de Mexico|US
 154.3.86.0|154.3.87.255|United States|Illinois|Bellwood|Tu Casa Inalambrica de Mexico|US
+154.3.88.0|154.3.89.255|Canada|CA-ON|Toronto|Tu Casa Inalambrica de Mexico|CA
 154.3.91.0|154.3.91.255|United States|Oregon|Portland|Tu Casa Inalambrica de Mexico|US
+154.3.130.0|154.3.131.255|United Kingdom|GB-ENG|London|Cogent Communications|GB
+154.3.133.0|154.3.133.255|Netherlands|NL-NH|Halfweg|Cogent Communications|NL
+154.3.227.0|154.3.227.143|United Kingdom|GB-ENG|London|Solid Systems LLC|GB
+154.3.227.144|154.3.227.167|United Kingdom|GB-ENG|Harlow|Solid Systems LLC|GB
+154.3.227.168|154.3.227.255|United Kingdom|GB-ENG|London|Solid Systems LLC|GB
+154.3.249.0|154.3.249.255|France|FR-IDF|Saint-Denis|Cogent Communications|FR
+154.3.250.0|154.3.251.255|France|FR-IDF|Vélizy-Villacoublay|Cogent Communications|FR
+154.3.252.0|154.3.253.255|Germany|DE-HE|Frankfurt Am Main|Cogent Communications|DE
+154.7.0.0|154.7.63.255|France|FR-IDF|Paris|Datacamp|FR
+154.7.184.0|154.7.191.255|Germany|DE-HE|Frankfurt Am Main|NetLab Global|DE
+154.9.1.0|154.9.1.255|Brazil|BR-MG|Machado|Charles River Operation|BR
+154.9.20.0|154.9.23.255|United Kingdom|GB-ENG|London|Cogent Communications|GB
 154.9.24.0|154.9.31.255|United States|California|Los Angeles|NetLab全球|US
+154.9.48.0|154.9.55.255|El Salvador|SV|Santa Tecla|United Data Technologies, Inc.|SV
+154.9.56.0|154.9.63.255|El Salvador|SV|Santa Tecla|Cogent Communications|SV
+154.9.65.0|154.9.65.255|Netherlands|NL-NH|Halfweg|Cogent Communications|NL
 154.9.96.0|154.9.111.255|United States|New York|Nicholville|M247 Europe SRL|US
+154.9.112.0|154.9.113.255|Uruguay|UY-FD|Florida|M247 Europe SRL|UY
+154.9.114.0|154.9.115.255|Canada|CA-BC|Richmond|M247 Europe SRL|CA
 154.9.128.0|154.9.129.255|United States|California|Pasadena|M247 Europe SRL|US
 154.9.130.0|154.9.131.255|United States|New York|New York|M247 Europe SRL|US
+154.9.132.0|154.9.133.255|United Kingdom|GB-ENG|London|M247 Europe SRL|GB
 154.9.134.0|154.9.135.255|United States|California|Pasadena|M247 Europe SRL|US
 154.9.154.0|154.9.154.255|United States|Massachusetts|Waltham|M247 Europe SRL|US
+154.9.155.0|154.9.155.255|Israel|IL-HA|Binyamina-Giv'at Ada|M247 Europe SRL|IL
 154.9.160.0|154.9.167.255|United States|Mississippi|Jackson|M247 Europe SRL|US
 154.9.176.0|154.9.179.255|United States|Texas|Fort Worth|M247 Europe SRL|US
+154.9.180.0|154.9.180.255|Bolivia|BO-S|Santa Cruz De La Sierra|M247 Europe SRL|BO
 154.9.181.0|154.9.181.255|United States|District of Columbia|Washington|M247 Europe SRL|US
 154.9.182.0|154.9.183.255|United States|California|Pasadena|M247 Europe SRL|US
 154.9.192.0|154.9.199.255|United States|Texas|Dallas|M247 Europe SRL|US
 154.9.200.0|154.9.201.255|United States|Texas|Fort Worth|M247 Europe SRL|US
+154.9.202.0|154.9.203.255|United Kingdom|GB-ENG|London|M247 Europe SRL|GB
 154.9.211.0|154.9.211.255|United States|Missouri|Kansas City|M247 Europe SRL|US
+154.9.214.0|154.9.215.255|Netherlands|NL-NH|Halfweg|M247 Europe SRL|NL
 154.9.217.0|154.9.217.255|United States|Tennessee|Nashville|M247 Europe SRL|US
+154.9.218.0|154.9.218.255|Lebanon|LB-JA|Saida|M247 Europe SRL|LB
+154.9.219.0|154.9.219.255|Venezuela|VE-T|Valera|M247 Europe SRL|VE
 154.9.224.0|154.9.255.255|United States|California|Los Angeles|M247 Europe SRL|US
+154.12.1.0|154.12.1.255|Mexico|MX-COA|Industrial Park|Easy Voice, LLC|MX
+154.12.3.0|154.12.3.255|Canada|CA-ON|Mississauga|Easy Voice, LLC|CA
 154.12.6.0|154.12.6.255|United States|Massachusetts|Waltham|Cogent Communications|US
 154.12.7.0|154.12.7.255|United States|Texas|Houston|Cogent Communications|US
 154.12.8.0|154.12.9.255|United States|California|Pasadena|Cogent Communications|US
 154.12.10.0|154.12.11.255|United States|New York|New York|Cogent Communications|US
+154.12.12.0|154.12.15.255|United Kingdom|GB-ENG|London|Cogent Communications|GB
 154.12.16.0|154.12.31.255|United States|California|Pasadena|科奈云端|US
+154.12.65.0|154.12.65.255|Netherlands|NL-NH|Halfweg|Cogent Communications|NL
 154.12.67.0|154.12.67.7|United States|California|Los Angeles|Cogent Communications|US
 154.12.67.8|154.12.67.15|United States|New York|New York|Cogent Communications|US
+154.12.67.16|154.12.67.31|France|FR-IDF|Saint-Denis|Cogent Communications|FR
+154.12.76.0|154.12.77.255|United Kingdom|GB-ENG|London|Frontier Communications of America, Inc.|GB
+154.12.80.0|154.12.87.255|Hong Kong SAR China|HK-KKC|Mong Kok|Frontier Communications of America, Inc.|HK
+154.12.88.0|154.12.95.255|Hong Kong SAR China|HK-KKC|Mong Kok|科奈云端|HK
+154.12.104.0|154.12.111.255|Honduras|HN-FM|Tegucigalpa|Cogent Communications|HN
 154.12.114.0|154.12.114.255|United States|Virginia|Arlington|Cogent Communications|US
+154.12.115.0|154.12.115.255|Israel|IL-HA|Jat Padella|Cogent Communications|IL
+154.12.116.0|154.12.119.255|Canada|CA-QC|Montréal|Cogent Communications|CA
+154.12.130.192|154.12.130.223|Canada|CA-ON|Toronto|Cogent Communications|CA
 154.12.176.0|154.12.191.255|United States|California|San Jose|Cogent Communications|US
 154.12.192.0|154.12.206.255|United States|Alaska|Ketchikan|Cogent Communications|US
+154.12.218.0|154.12.219.255|France|FR-IDF|Vélizy-Villacoublay|Cogent Communications|FR
+154.12.220.0|154.12.223.255|Mexico|MX-CMX|Mexico City|Cogent Communications|MX
 154.13.12.0|154.13.13.255|United States|Massachusetts|Waltham|Cogent Communications|US
 154.13.14.0|154.13.15.255|United States|Georgia|Atlanta|Cogent Communications|US
+154.13.24.0|154.13.27.255|Canada|CA-ON|Toronto|Cogent Communications|CA
+154.13.65.0|154.13.65.255|Netherlands|NL-NH|Halfweg|Cogent Communications|NL
 154.13.88.0|154.13.89.255|United States|California|Walnut|Cogent Communications|US
+154.13.128.0|154.13.128.255|United Kingdom|GB-BKM|Kiln Farm|Cogent Communications|GB
 154.13.136.0|154.13.143.255|United States|Florida|Boca Raton|Datacamp Limited|US
+154.13.146.0|154.13.147.255|Netherlands|NL-NH|Halfweg|Cogent Communications|NL
+154.13.163.0|154.13.163.255|Netherlands|NL-NH|Haarlem|Cogent Communications|NL
 154.13.168.0|154.13.175.255|United States|Virginia|Ashburn|Cogent Communications|US
 154.17.128.0|154.17.159.255|United States|North Carolina|Charlotte|M247 Europe SRL|US
 154.17.168.0|154.17.191.255|United States|North Carolina|Charlotte|M247 Europe SRL|US
