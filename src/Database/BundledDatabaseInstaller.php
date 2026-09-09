@@ -13,7 +13,7 @@ class BundledDatabaseInstaller
     private const BUNDLED_DATABASES = [
         4 => [
             'file' => 'ip2region_v4.xdb.gz',
-            'sha256' => 'bd01ad2bdcdccd98b65b3e410e198c5c22237affdf108f03611143ba40a6360b',
+            'sha256' => '15784e48a8aa0f2b79be55e861a514a0a14bbfd6c88e11d8504d94f5cbf3db92',
         ],
         6 => [
             'file' => 'ip2region_v6.xdb.gz',
