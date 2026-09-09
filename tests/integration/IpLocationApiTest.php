@@ -2,7 +2,9 @@
 
 namespace FFans\IpLocation\Tests\integration;
 
+use Flarum\Discussion\Discussion;
 use Flarum\Post\CommentPost;
+use Flarum\Post\Post;
 use Flarum\Testing\integration\TestCase;
 use Flarum\User\User;
 use FFans\IpLocation\BackfillPostQuery;
@@ -189,65 +191,67 @@ class IpLocationApiTest extends TestCase
     #[Test]
     public function legacy_special_region_rows_are_migrated_to_chinese_subdivisions(): void
     {
-        $schema = $this->database()->getSchemaBuilder();
-        $schema->disableForeignKeyConstraints();
-        $locations = [
-            999997 => ['HK', '香港', '香港特别行政区'],
-            999998 => ['MO', '澳门', '澳门特别行政区'],
-            999999 => ['TW', '台湾', '台湾省'],
-        ];
+        $database = $this->database();
+        $discussion = Discussion::factory()->createQuietly(['user_id' => 1]);
+        $locations = [];
 
-        try {
-            foreach ($locations as $postId => [$code, $legacyName]) {
-                $this->database()->table('ffans_post_ip_locations')->insert([
-                    'post_id' => $postId,
-                    'status' => 'resolved',
-                    'country_code' => $code,
-                    'subdivision_code' => null,
-                    'country_name' => $legacyName,
-                    'subdivision_name' => null,
-                    'provider' => 'test',
-                    'database_version' => 'test',
-                    'resolved_at' => '2026-09-09 00:00:00',
-                    'created_at' => '2026-09-09 00:00:00',
-                    'updated_at' => '2026-09-09 00:00:00',
-                ]);
-            }
+        foreach ([
+            ['HK', '香港', '香港特别行政区'],
+            ['MO', '澳门', '澳门特别行政区'],
+            ['TW', '台湾', '台湾省'],
+        ] as $number => $location) {
+            $post = Post::factory()->createQuietly([
+                'discussion_id' => $discussion->id,
+                'number' => $number + 1,
+                'user_id' => 1,
+            ]);
+            $locations[$post->id] = $location;
+        }
 
-            $migration = require dirname(__DIR__, 2).'/migrations/2026_09_09_000000_normalize_china_special_subdivision_codes.php';
-            $migration['up']($schema);
+        foreach ($locations as $postId => [$code, $legacyName]) {
+            $database->table('ffans_post_ip_locations')->insert([
+                'post_id' => $postId,
+                'status' => 'resolved',
+                'country_code' => $code,
+                'subdivision_code' => null,
+                'country_name' => $legacyName,
+                'subdivision_name' => null,
+                'provider' => 'test',
+                'database_version' => 'test',
+                'resolved_at' => '2026-09-09 00:00:00',
+                'created_at' => '2026-09-09 00:00:00',
+                'updated_at' => '2026-09-09 00:00:00',
+            ]);
+        }
 
-            foreach ($locations as $postId => [$code, , $subdivisionName]) {
-                $location = $this->database()
-                    ->table('ffans_post_ip_locations')
-                    ->where('post_id', $postId)
-                    ->first();
+        $schema = $database->getSchemaBuilder();
+        $migration = require dirname(__DIR__, 2).'/migrations/2026_09_09_000000_normalize_china_special_subdivision_codes.php';
+        $migration['up']($schema);
 
-                $this->assertSame('CN', $location->country_code);
-                $this->assertSame($code, $location->subdivision_code);
-                $this->assertSame('中国', $location->country_name);
-                $this->assertSame($subdivisionName, $location->subdivision_name);
-            }
-
-            $migration['down']($schema);
-
-            foreach ($locations as $postId => [$code, , $subdivisionName]) {
-                $location = $this->database()
-                    ->table('ffans_post_ip_locations')
-                    ->where('post_id', $postId)
-                    ->first();
-
-                $this->assertSame($code, $location->country_code);
-                $this->assertNull($location->subdivision_code);
-                $this->assertSame($subdivisionName, $location->country_name);
-                $this->assertNull($location->subdivision_name);
-            }
-        } finally {
-            $this->database()
+        foreach ($locations as $postId => [$code, , $subdivisionName]) {
+            $location = $database
                 ->table('ffans_post_ip_locations')
-                ->whereIn('post_id', array_keys($locations))
-                ->delete();
-            $schema->enableForeignKeyConstraints();
+                ->where('post_id', $postId)
+                ->first();
+
+            $this->assertSame('CN', $location->country_code);
+            $this->assertSame($code, $location->subdivision_code);
+            $this->assertSame('中国', $location->country_name);
+            $this->assertSame($subdivisionName, $location->subdivision_name);
+        }
+
+        $migration['down']($schema);
+
+        foreach ($locations as $postId => [$code, , $subdivisionName]) {
+            $location = $database
+                ->table('ffans_post_ip_locations')
+                ->where('post_id', $postId)
+                ->first();
+
+            $this->assertSame($code, $location->country_code);
+            $this->assertNull($location->subdivision_code);
+            $this->assertSame($subdivisionName, $location->country_name);
+            $this->assertNull($location->subdivision_name);
         }
     }
 }
