@@ -899,19 +899,79 @@
 154.59.224.0|154.59.224.255|Estonia|EE-37|Põhja-Tallinna|Cogent Communications|EE
 154.59.225.0|154.59.225.255|Estonia|EE-37|Tallinn|Cogent Communications|EE
 154.59.226.0|154.59.227.255|Estonia|EE-37|Põhja-Tallinna|Cogent Communications|EE
+154.60.68.0|154.60.71.255|United Kingdom|GB-ENG|London|Cogent Communications|GB
+154.60.74.0|154.60.74.255|United Kingdom|GB-ENG|Diss|Cogent Communications|GB
+154.60.75.0|154.60.75.255|United Kingdom|GB-ENG|London|Cogent Communications|GB
+154.60.80.0|154.60.81.255|United Kingdom|GB-ENG|Slough|Cogent Communications|GB
+154.60.82.0|154.60.82.255|United Kingdom|GB-ENG|London|Cogent Communications|GB
+154.60.242.0|154.60.242.255|Spain|ES-VC|Ibi|Cogent Communications|ES
 154.61.45.0|154.61.45.255|United States|California|Pasadena|ITS Technology Group Limited|US
 154.61.47.0|154.61.47.255|United States|Florida|Orlando|ITS Technology Group Limited|US
 154.61.64.0|154.61.64.255|United States|Nevada|Henderson|Telecom North America Inc.|US
+154.61.65.0|154.61.65.255|Philippines|PH-NER|Dumaguete|Telecom North America Inc.|PH
+154.61.69.0|154.61.69.255|India|IN-MH|Thane|Telecom North America Inc.|IN
+154.61.70.128|154.61.70.255|Italy|IT-25|Ponte San Pietro|Telecom North America Inc.|IT
+154.61.72.0|154.61.72.255|India|IN-MH|Thane|Telecom North America Inc.|IN
+154.61.74.0|154.61.77.255|India|IN-MH|Thane|Telecom North America Inc.|IN
+154.61.80.0|154.61.80.255|India|IN-MH|Thane|Telecom North America Inc.|IN
+154.61.81.64|154.61.81.127|Switzerland|CH-ZH|Oberengstringen|Telecom North America Inc.|CH
+154.61.81.128|154.61.81.191|Italy|IT-25|Milano 3 Cty Basiglio Mi|Telecom North America Inc.|IT
+154.61.81.224|154.61.81.255|Germany|DE-NW|Dusseldorf|Telecom North America Inc.|DE
+154.61.84.0|154.61.84.255|Australia|AU-NSW|Sydney|Telecom North America Inc.|AU
+154.61.87.64|154.61.87.127|Germany|DE-NW|Dusseldorf|Cogent Communications|DE
+154.61.87.128|154.61.87.255|Netherlands|NL-NH|Amsterdam|Cogent Communications|NL
+154.61.128.0|154.61.128.255|United Kingdom|GB-ENG|Woking|Cogent Communications|GB
 154.61.144.0|154.61.144.255|United States|California|San Francisco|Cogent Communications|US
 154.61.145.0|154.61.145.255|United States|Virginia|Reston|Cogent Communications|US
 154.61.151.0|154.61.151.255|United States|Colorado|Grand Jct|TransFICC Ltd.|US
+154.61.170.0|154.61.171.255|Canada|CA-ON|Sarnia|TransFICC Ltd.|CA
+154.61.172.0|154.61.172.255|Paraguay|PY-11|Itá|TransFICC Ltd.|PY
+154.61.173.0|154.61.173.255|Tajikistan|TJ-DU|Dushanbe|TransFICC Ltd.|TJ
+154.61.174.0|154.61.174.255|Germany|DE-HE|Frankfurt|TransFICC Ltd.|DE
+154.61.179.0|154.61.179.63|Germany|DE-HE|Frankfurt|TransFICC Ltd.|DE
+154.61.181.0|154.61.181.255|Lebanon|LB-BA|Beirut|TransFICC Ltd.|LB
+154.61.204.0|154.61.205.7|Serbia|RS-00|Belgrade|Cogent Communications|RS
+154.62.1.0|154.62.1.255|Netherlands|NL-NH|Haarlem|Cogent Communications|NL
+154.62.4.0|154.62.4.255|Netherlands|NL-NH|Amsterdam|Cogent Communications|NL
+154.62.5.0|154.62.5.7|Netherlands|NL-NH|Haarlem|Cogent Communications|NL
+154.62.5.8|154.62.5.15|Netherlands|NL-NH|Halfweg|Cogent Communications|NL
+154.62.5.16|154.62.5.31|Netherlands|NL-NB|Eindhoven|Cogent Communications|NL
+154.62.5.32|154.62.5.39|Netherlands|NL-NH|Amsterdam|Cogent Communications|NL
+154.62.5.40|154.62.5.47|Germany|DE-NW|Dusseldorf|Cogent Communications|DE
+154.62.5.56|154.62.5.63|Netherlands|NL-NH|Amsterdam|Cogent Communications|NL
+154.62.5.64|154.62.5.127|Estonia|EE-37|Tallinn|Cogent Communications|EE
+154.62.5.128|154.62.5.135|Canada|CA-ON|Toronto|Cogent Communications|CA
+154.62.5.148|154.62.5.151|Netherlands|NL-NH|Rozenburg|Cogent Communications|NL
+154.62.5.160|154.62.5.167|Canada|CA-ON|Ottawa|Cogent Communications|CA
+154.62.7.0|154.62.7.255|India|IN-TN|Mylapore|Cogent Communications|IN
+154.62.8.0|154.62.15.255|Netherlands|NL-NH|Amsterdam|Cogent Communications|NL
+154.62.16.0|154.62.31.255|Netherlands|NL-ZH|Brielle|Cogent Communications|NL
+154.62.46.0|154.62.46.255|Spain|ES-AN|Málaga|Cogent Communications|ES
+154.62.99.24|154.62.99.39|Germany|DE-HE|Frankfurt|Cogent Communications|DE
 154.62.101.0|154.62.101.255|United States|Florida|Boca Raton|Cogent Communications|US
+154.62.116.0|154.62.119.255|Venezuela|VE|Palo Negro|Cogent Communications|VE
+154.62.123.0|154.62.123.255|Venezuela|VE-V|Maracaibo|Cogent Communications|VE
+154.62.126.0|154.62.126.255|Dominican Republic|DO-23|San Pedro De Macorís|Cogent Communications|DO
+154.62.127.0|154.62.127.255|Venezuela|VE-G|Valencia|Cogent Communications|VE
+154.62.129.0|154.62.129.255|United Kingdom|GB-ENG|London|Cogent Communications|GB
+154.62.131.0|154.62.131.255|United Kingdom|GB-ENG|Cambridge|Cogent Communications|GB
+154.62.133.0|154.62.133.255|United Kingdom|GB-ENG|London|Cogent Communications|GB
+154.62.136.0|154.62.136.255|United Kingdom|GB-ENG|Slough|Cogent Communications|GB
+154.62.137.0|154.62.137.255|Germany|DE-NW|Dusseldorf|Cogent Communications|DE
 154.62.175.0|154.62.175.255|United States|Texas|Dallas|Cogent Communications|US
 154.62.182.0|154.62.182.255|United States|New York|Brooklyn|ZH NETWORK LIMITED|US
 154.62.183.0|154.62.183.255|United States|Delaware|Dover|ZH NETWORK LIMITED|US
 154.62.185.0|154.62.185.255|United States|New York|New York|ZH NETWORK LIMITED|US
+154.62.224.0|154.62.225.255|Spain|ES-MD|Madrid|Cogent Communications|ES
 154.63.40.0|154.63.43.255|United States|U.S. Virgin Islands|St Thomas|Cogent Communications|US
 154.63.44.0|154.63.47.255|United States|Georgia|Atlanta|Cogent Communications|US
+154.63.64.0|154.63.64.255|Belgium|BE-VLG|Gent|Cogent Communications|BE
+154.63.65.0|154.63.66.63|Belgium|BE-VLG|Oostkamp|Cogent Communications|BE
+154.63.66.80|154.63.66.83|Belgium|BE-VLG|Oostkamp|Cogent Communications|BE
+154.63.67.0|154.63.69.255|Belgium|BE-VLG|Oostkamp|Cogent Communications|BE
+154.63.162.0|154.63.162.7|Italy|IT-25|Milano 3 Cty Basiglio Mi|Cogent Communications|IT
+154.63.172.0|154.63.173.255|Italy|IT-62|Roma|Cogent Communications|IT
+154.64.64.0|154.64.127.255|Canada|CA-ON|Toronto|Cogent Communications|CA
 154.64.128.0|154.64.159.255|United States|New Jersey|Edison|Cogent Communications|US
 154.64.208.0|154.64.223.255|United States|Florida|Jacksonville|Cogent Communications|US
 154.64.224.0|154.64.255.255|United States|California|Los Angeles|Cogent Communications|US
