@@ -142,8 +142,126 @@
 154.18.51.0|154.18.51.1|Japan|JP-27|Osaka City|Cogent Communications|JP
 154.18.51.4|154.18.51.7|Japan|JP-27|Osaka City|Cogent Communications|JP
 154.18.51.8|154.18.51.11|Japan|JP-27|Osaka|Cogent Communications|JP
+154.18.64.8|154.18.64.15|Japan|JP-13|Tokyo|Cogent Communications|JP
+154.18.64.16|154.18.64.23|Japan|JP-13|Minato-Ku|Cogent Communications|JP
+154.18.64.44|154.18.64.45|Japan|JP-12|Inzai City Chiba|Cogent Communications|JP
+154.18.64.64|154.18.64.71|Japan|JP-13|Shinigawa-Ku|Cogent Communications|JP
+154.18.64.72|154.18.64.79|Japan|JP-13|Chiyoda-Ku|Cogent Communications|JP
+154.18.64.80|154.18.64.159|Japan|JP-13|Tokyo|Cogent Communications|JP
+154.18.65.0|154.18.67.255|Japan|JP-13|Tokyo|Cogent Communications|JP
+154.18.70.0|154.18.71.255|Japan|JP-13|Tokyo|Cogent Communications|JP
+154.18.72.0|154.18.79.255|Guam|GU-TM|Tamuning|Cogent Communications|GU
+154.18.80.0|154.18.81.255|Japan|JP-13|Shinigawa-Ku|Cogent Communications|JP
 154.18.82.0|154.18.82.255|United States|New York|Middletown|Cogent Communications|US
+154.18.90.0|154.18.90.255|Japan|JP-13|Ota-Ku Tokyo|Cogent Communications|JP
+154.18.91.0|154.18.91.255|Japan|JP-13|Tokyo|Cogent Communications|JP
+154.18.96.0|154.18.96.7|Australia|AU-ACT|Barton|Cogent Communications|AU
+154.18.96.8|154.18.96.15|Australia|AU-NSW|Alexandria|Cogent Communications|AU
+154.18.96.24|154.18.96.31|Australia|AU-NSW|Sydney|Cogent Communications|AU
+154.18.96.32|154.18.96.33|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.96.34|154.18.96.37|Australia|AU-NSW|Mascot Sydney|Cogent Communications|AU
+154.18.96.38|154.18.96.39|Australia|AU-NSW|Sydney|Cogent Communications|AU
+154.18.96.40|154.18.96.55|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.96.56|154.18.96.63|Australia|AU-NSW|Mascot|Cogent Communications|AU
+154.18.96.64|154.18.96.71|Australia|AU-NSW|Macquarie Park|Cogent Communications|AU
+154.18.96.72|154.18.96.73|Australia|AU-NSW|Erskine Park|Cogent Communications|AU
+154.18.96.74|154.18.96.77|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.96.78|154.18.96.79|Australia|AU-QLD|Eight Mile Plains|Cogent Communications|AU
+154.18.96.80|154.18.96.81|Australia|AU-NSW|Sydney|Cogent Communications|AU
+154.18.96.88|154.18.96.103|Australia|AU-NSW|Alexandria|Cogent Communications|AU
+154.18.96.104|154.18.96.105|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.96.108|154.18.96.109|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.96.110|154.18.96.111|Australia|AU-NSW|Mascot Sydney|Cogent Communications|AU
+154.18.96.114|154.18.96.115|Australia|AU-NSW|Macquarie Park|Cogent Communications|AU
+154.18.96.116|154.18.96.117|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.96.118|154.18.96.119|Australia|AU-NSW|Sydney|Cogent Communications|AU
+154.18.96.128|154.18.96.135|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.96.136|154.18.96.159|Australia|AU-NSW|Alexandria|Cogent Communications|AU
+154.18.96.168|154.18.96.175|Australia|AU-NSW|Sydney|Cogent Communications|AU
+154.18.96.176|154.18.96.183|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.96.192|154.18.96.199|Australia|AU-NSW|Alexandria|Cogent Communications|AU
+154.18.96.200|154.18.96.207|Australia|AU-NSW|Sydney|Cogent Communications|AU
+154.18.96.224|154.18.96.231|Australia|AU-NSW|Sydney|Cogent Communications|AU
+154.18.96.232|154.18.96.239|Australia|AU-NSW|Macquarie Park|Cogent Communications|AU
+154.18.96.240|154.18.96.247|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.96.248|154.18.96.255|Australia|AU-NSW|Alexandria|Cogent Communications|AU
+154.18.97.0|154.18.97.7|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.97.8|154.18.97.15|Australia|AU-NSW|Sydney|Cogent Communications|AU
+154.18.97.16|154.18.97.23|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.97.24|154.18.97.25|Australia|AU-NSW|Artarmon|Cogent Communications|AU
+154.18.97.26|154.18.97.27|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.97.30|154.18.97.31|Australia|AU-NSW|Macquarie Park|Cogent Communications|AU
+154.18.97.32|154.18.97.39|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.97.48|154.18.97.55|Australia|AU-NSW|Mascot|Cogent Communications|AU
+154.18.97.56|154.18.97.63|Australia|AU-NSW|Alexandria|Cogent Communications|AU
 154.18.97.64|154.18.97.71|United States|Florida|Fort Lauderdale|Cogent Communications|US
+154.18.97.72|154.18.97.75|Australia|AU-NSW|Mascot Sydney|Cogent Communications|AU
+154.18.97.76|154.18.97.77|Australia|AU-NSW|Artarmon|Cogent Communications|AU
+154.18.97.80|154.18.97.87|Australia|AU-NSW|Alexandria|Cogent Communications|AU
+154.18.97.104|154.18.97.105|Australia|AU-NSW|Sydney|Cogent Communications|AU
+154.18.97.106|154.18.97.107|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.97.108|154.18.97.109|Australia|AU-NSW|Mascot Sydney|Cogent Communications|AU
+154.18.97.110|154.18.97.111|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.97.112|154.18.97.119|Australia|AU-NSW|Alexandria|Cogent Communications|AU
+154.18.97.120|154.18.97.123|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.97.124|154.18.97.125|Australia|AU-NSW|Alexandria|Cogent Communications|AU
+154.18.97.126|154.18.97.135|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.97.136|154.18.97.143|Australia|AU-NSW|Alexandria|Cogent Communications|AU
+154.18.97.144|154.18.97.151|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.97.152|154.18.97.159|Australia|AU-NSW|Sydney|Cogent Communications|AU
+154.18.97.176|154.18.97.183|Australia|AU-NSW|Artarmon|Cogent Communications|AU
+154.18.97.184|154.18.97.191|Australia|AU-NSW|Mascot|Cogent Communications|AU
+154.18.97.192|154.18.97.199|Australia|AU-NSW|Mascot Sydney|Cogent Communications|AU
+154.18.97.216|154.18.97.223|Australia|AU-NSW|Sydney|Cogent Communications|AU
+154.18.97.232|154.18.97.239|Australia|AU-NSW|Mascot Sydney|Cogent Communications|AU
+154.18.97.240|154.18.97.247|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.98.16|154.18.98.23|Australia|AU-NSW|Mascot|Cogent Communications|AU
+154.18.98.48|154.18.98.63|Australia|AU-NSW|Mascot Sydney|Cogent Communications|AU
+154.18.98.72|154.18.98.79|Australia|AU-NSW|Alexandria|Cogent Communications|AU
+154.18.98.88|154.18.98.95|Australia|AU-NSW|Macquarie Park|Cogent Communications|AU
+154.18.98.96|154.18.98.103|Australia|AU-NSW|Alexandria|Cogent Communications|AU
+154.18.98.128|154.18.98.135|Australia|AU-NSW|Artarmon|Cogent Communications|AU
+154.18.98.136|154.18.98.151|Australia|AU-NSW|Mascot Sydney|Cogent Communications|AU
+154.18.98.152|154.18.98.167|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.98.184|154.18.98.199|Australia|AU-NSW|Sydney|Cogent Communications|AU
+154.18.98.200|154.18.98.207|Australia|AU-NSW|Mascot Sydney|Cogent Communications|AU
+154.18.98.208|154.18.98.231|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.98.232|154.18.98.247|Australia|AU-NSW|Sydney|Cogent Communications|AU
+154.18.99.8|154.18.99.23|Australia|AU-NSW|Mascot Sydney|Cogent Communications|AU
+154.18.99.24|154.18.99.31|Australia|AU-NSW|Sydney|Cogent Communications|AU
+154.18.99.32|154.18.99.39|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.99.48|154.18.99.63|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.99.72|154.18.99.73|Australia|AU-NSW|Mascot Sydney|Cogent Communications|AU
+154.18.99.74|154.18.99.95|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.99.136|154.18.99.143|Australia|AU-NSW|Alexandria|Cogent Communications|AU
+154.18.99.144|154.18.99.159|Australia|AU-NSW|Sydney|Cogent Communications|AU
+154.18.99.168|154.18.99.169|Australia|AU-NSW|Sydney|Cogent Communications|AU
+154.18.99.170|154.18.99.173|Australia|AU-NSW|Alexandria Sydney|Cogent Communications|AU
+154.18.99.174|154.18.99.175|Australia|AU-VIC|Melbourne|Cogent Communications|AU
+154.18.99.176|154.18.99.183|Australia|AU-NSW|Mascot Sydney|Cogent Communications|AU
+154.18.99.192|154.18.99.193|Australia|AU-NSW|Macquarie Park|Cogent Communications|AU
+154.18.99.194|154.18.99.197|Australia|AU-NSW|Sydney|Cogent Communications|AU
+154.18.99.198|154.18.99.199|Australia|AU-NSW|Mascot Sydney|Cogent Communications|AU
+154.18.100.0|154.18.100.5|Australia|AU-WA|Shenton Park|Cogent Communications|AU
+154.18.100.6|154.18.100.7|Australia|AU-WA|Malaga|Cogent Communications|AU
+154.18.100.8|154.18.100.15|Australia|AU-WA|Perth|Cogent Communications|AU
+154.18.100.16|154.18.100.25|Australia|AU-WA|Malaga|Cogent Communications|AU
+154.18.100.26|154.18.100.29|Australia|AU-WA|Shenton Park|Cogent Communications|AU
+154.18.100.40|154.18.100.55|Australia|AU-WA|Malaga|Cogent Communications|AU
+154.18.100.64|154.18.100.71|Australia|AU-WA|Malaga|Cogent Communications|AU
+154.18.100.72|154.18.100.79|Australia|AU-WA|Perth|Cogent Communications|AU
+154.18.100.80|154.18.100.87|Australia|AU-WA|Shenton Park|Cogent Communications|AU
+154.18.104.0|154.18.104.9|New Zealand|NZ-AUK|Auckland|Cogent Communications|NZ
+154.18.104.16|154.18.104.17|New Zealand|NZ-AUK|Auckland|Cogent Communications|NZ
+154.18.104.20|154.18.104.39|New Zealand|NZ-AUK|Auckland|Cogent Communications|NZ
+154.18.104.56|154.18.104.79|New Zealand|NZ-AUK|Auckland|Cogent Communications|NZ
+154.18.104.88|154.18.104.103|New Zealand|NZ-AUK|Auckland|Cogent Communications|NZ
+154.18.104.120|154.18.104.127|New Zealand|NZ-AUK|Auckland|Cogent Communications|NZ
+154.18.112.0|154.18.112.1|Australia|AU-VIC|South Yarra|Cogent Communications|AU
+154.18.112.2|154.18.112.7|Australia|AU-VIC|Port Melbourne|Cogent Communications|AU
+154.18.112.8|154.18.112.23|Australia|AU-VIC|Melbourne Victoria|Cogent Communications|AU
+154.18.112.24|154.18.112.27|Australia|AU-VIC|Port Melbourne|Cogent Communications|AU
+154.18.112.28|154.18.112.33|Australia|AU-VIC|Melbourne Victoria|Cogent Communications|AU
 154.18.145.0|154.18.145.7|United States|Ohio|Columbus|Cogent Communications|US
 154.18.145.8|154.18.145.23|United States|New York|New York|Cogent Communications|US
 154.18.145.24|154.18.145.31|United States|Illinois|Chicago|Cogent Communications|US
