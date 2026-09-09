@@ -90,8 +90,13 @@
 154.13.146.0|154.13.147.255|Netherlands|NL-NH|Halfweg|Cogent Communications|NL
 154.13.163.0|154.13.163.255|Netherlands|NL-NH|Haarlem|Cogent Communications|NL
 154.13.168.0|154.13.175.255|United States|Virginia|Ashburn|Cogent Communications|US
+154.17.72.0|154.17.75.255|Mexico|MX-CMX|Mexico City|Cogent Communications|MX
 154.17.128.0|154.17.159.255|United States|North Carolina|Charlotte|M247 Europe SRL|US
 154.17.168.0|154.17.191.255|United States|North Carolina|Charlotte|M247 Europe SRL|US
+154.17.248.0|154.17.251.255|Spain|ES-MD|San Sebastian De Los Reyes|Cogent Communications|ES
+154.17.252.0|154.17.252.255|Germany|DE-HE|Frankfurt|Cogent Communications|DE
+154.17.253.0|154.17.253.255|Canada|CA-ON|Toronto|Cogent Communications|CA
+154.17.255.0|154.17.255.255|France|FR-IDF|Vélizy-Villacoublay|Cogent Communications|FR
 154.18.1.176|154.18.1.183|United States|Kansas|Wichita|Cogent Communications|US
 154.18.2.168|154.18.2.175|Luxembourg|LU-LU|Contern|Cogent Communications|LU
 154.18.2.248|154.18.2.255|Indonesia|ID-JK|Jakarta Pusat|Cogent Communications|ID
@@ -265,19 +270,34 @@
 154.18.145.0|154.18.145.7|United States|Ohio|Columbus|Cogent Communications|US
 154.18.145.8|154.18.145.23|United States|New York|New York|Cogent Communications|US
 154.18.145.24|154.18.145.31|United States|Illinois|Chicago|Cogent Communications|US
+154.18.145.32|154.18.145.47|Spain|ES-MD|Madrid|Cogent Communications|ES
+154.18.145.48|154.18.145.55|Canada|CA-ON|Toronto|Cogent Communications|CA
 154.18.145.56|154.18.145.63|United States|Ohio|Gahanna|Cogent Communications|US
+154.18.145.64|154.18.145.71|Canada|CA|Toronto|Cogent Communications|CA
 154.18.145.72|154.18.145.87|United States|Ohio|Groveport|Cogent Communications|US
 154.18.145.88|154.18.145.95|United States|California|Monterey|Cogent Communications|US
 154.18.145.96|154.18.145.103|United States|Illinois|Chicago|Cogent Communications|US
 154.18.145.104|154.18.145.111|United States|Ohio|Columbus|Cogent Communications|US
+154.18.145.112|154.18.145.119|Mexico|MX-CMX|Ciudad De México|Cogent Communications|MX
 154.18.145.120|154.18.145.135|United States|Ohio|Columbus|Cogent Communications|US
+154.18.145.136|154.18.145.143|Mexico|MX-CMX|Ciudad De México|Cogent Communications|MX
 154.18.145.144|154.18.145.255|United States|New York|New York|Cogent Communications|US
+154.18.152.0|154.18.152.255|Venezuela|VE-M|Cua|Cogent Communications|VE
 154.18.153.0|154.18.153.255|United States|Florida|Pembroke Park|Cogent Communications|US
+154.18.168.0|154.18.168.255|Taiwan|TW-TAO|Taoyuan|Cogent Communications|TW
 154.18.177.0|154.18.177.255|United States|Louisiana|New Orleans|Cogent Communications|US
 154.18.186.0|154.18.186.255|United States|California|Pasadena|Cogent Communications|US
+154.18.191.0|154.18.191.255|Japan|JP-13|Bunkyo-Ku Tokyo|Cogent Communications|JP
+154.18.196.0|154.18.197.255|Philippines|PH-00|Quezon City|Cogent Communications|PH
+154.18.210.0|154.18.211.255|India|IN|Chennai|Cogent Communications|IN
+154.18.248.0|154.18.251.255|Dominican Republic|DO-21|Villa Altagracia|Cogent Communications|DO
+154.18.252.0|154.18.252.255|Indonesia|ID-JK|Kota Jakarta Selatan|Cogent Communications|ID
 154.18.253.0|154.18.253.255|United States|California|Pasadena|Cogent Communications|US
 154.18.254.0|154.18.254.255|United States|Texas|Richmond|Cogent Communications|US
+154.18.255.0|154.18.255.255|Indonesia|ID-JB|Karawang|Cogent Communications|ID
+154.19.38.0|154.19.39.255|Indonesia|ID-BT|Tangerang|Cogent Communications|ID
 154.19.42.0|154.19.42.255|United States|California|Pasadena|Cogent Communications|US
+154.19.43.0|154.19.43.255|China|CN-HK|Hong Kong|Cogent Communications|CN
 154.19.46.0|154.19.46.255|United States|New Jersey|North Bergen|Cogent Communications|US
 154.21.12.0|154.21.12.255|United States|Texas|Georgetown|Cogent Communications|US
 154.21.13.0|154.21.13.255|United States|Virginia|Ashburn|Cogent Communications|US
